@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="25.0.3">
+  <diagram name="Страница — 1" id="U4k26Y5YHstxInBCMOMQ">
+    <mxGraphModel dx="1195" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HYDNfvcAmZGUfyOfmBiC-1" target="HYDNfvcAmZGUfyOfmBiC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-1" value="START" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="69" y="400" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.843;exitY=0.93;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HYDNfvcAmZGUfyOfmBiC-2" target="HYDNfvcAmZGUfyOfmBiC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-27" value="IF WORD END" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYDNfvcAmZGUfyOfmBiC-9">
+          <mxGeometry x="0.0984" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HYDNfvcAmZGUfyOfmBiC-2" target="HYDNfvcAmZGUfyOfmBiC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-25" value="IF NOT ALPHA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYDNfvcAmZGUfyOfmBiC-10">
+          <mxGeometry x="0.0332" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HYDNfvcAmZGUfyOfmBiC-2" target="HYDNfvcAmZGUfyOfmBiC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-26" value="IF EOF" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYDNfvcAmZGUfyOfmBiC-11">
+          <mxGeometry x="-0.1296" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-2" value="CHECKCHAR" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="239" y="400" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-3" value="SKIPWORD" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="369" y="200" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-4" value="WORD-CONCLUSION" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="369" y="610" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HYDNfvcAmZGUfyOfmBiC-5" target="HYDNfvcAmZGUfyOfmBiC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-5" value="PRINTOUT" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="509" y="400" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-6" value="FINISH" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="669" y="400" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-15" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.093;exitY=0.244;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.37;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HYDNfvcAmZGUfyOfmBiC-2" target="HYDNfvcAmZGUfyOfmBiC-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="239" y="380" as="sourcePoint" />
+            <mxPoint x="289" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="199" y="390" />
+              <mxPoint x="259" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-22" value="IF ALPHA" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYDNfvcAmZGUfyOfmBiC-15">
+          <mxGeometry x="0.0998" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="HYDNfvcAmZGUfyOfmBiC-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="459" y="250" as="sourcePoint" />
+            <mxPoint x="509" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="509" y="250" />
+              <mxPoint x="489" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-24" value="IF NOT WORD END" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYDNfvcAmZGUfyOfmBiC-16">
+          <mxGeometry x="0.0314" y="-3" relative="1" as="geometry">
+            <mxPoint x="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="HYDNfvcAmZGUfyOfmBiC-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="209" y="250" as="sourcePoint" />
+            <mxPoint x="289" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="289" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-23" value="IF WORD END" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HYDNfvcAmZGUfyOfmBiC-18">
+          <mxGeometry x="-0.4923" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYDNfvcAmZGUfyOfmBiC-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HYDNfvcAmZGUfyOfmBiC-4" target="HYDNfvcAmZGUfyOfmBiC-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169" y="700" as="sourcePoint" />
+            <mxPoint x="219" y="650" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="284" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
